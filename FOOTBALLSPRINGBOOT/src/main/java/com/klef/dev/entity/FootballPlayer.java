@@ -1,0 +1,57 @@
+package com.klef.dev.entity;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "footballplayerdb")
+public class FootballPlayer {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "player_id")
+    private Integer id;
+
+    @Column(name = "player_name", nullable = false, length = 50)
+    private String name;
+
+    @Column(name = "player_position", nullable = false, length = 30)
+    private String position;
+
+    @Column(name = "player_club", nullable = false, length = 50)
+    private String club;
+
+    @Column(name = "player_nationality", nullable = false, length = 50)
+    private String nationality;
+
+    @Column(name = "player_age", nullable = false)
+    private Integer age;
+
+    @Column(name = "player_goals", nullable = false)
+    private Integer goals;
+
+    @Column(name = "player_email", length = 100)
+    private String email;
+
+    @Column(name = "player_contact", length = 20)
+    private String contact;
+
+    // Getters & Setters
+    public Integer getId() { return id; }
+    public void setId(Integer id) { this.id = id; }
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
+    public String getPosition() { return position; }
+    public void setPosition(String position) { this.position = position; }
+    public String getClub() { return club; }
+    public void setClub(String club) { this.club = club; }
+    public String getNationality() { return nationality; }
+    public void setNationality(String nationality) { this.nationality = nationality; }
+    public Integer getAge() { return age; }
+    public void setAge(Integer age) { this.age = age; }
+    public Integer getGoals() { return goals; }
+    public void setGoals(Integer goals) { this.goals = goals; }
+    public String getEmail() { return email; }
+    public void setEmail(String email) { this.email = email; }
+    public String getContact() { return contact; }
+    public void setContact(String contact) { this.contact = contact; }
+}

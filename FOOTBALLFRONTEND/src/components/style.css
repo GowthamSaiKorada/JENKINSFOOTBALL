@@ -1,0 +1,171 @@
+/* ==============================
+   Global Container
+============================== */
+.fplayer-container {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #ffffff; /* Changed to white background */
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ==============================
+   Headings
+============================== */
+h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2b7a0b; /* football turf green */
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: #004085;
+}
+
+/* ==============================
+   Cards & Sections
+============================== */
+.card, .fetched-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+.fetched-card {
+  background: #f0fdf4; /* light soft green */
+  border-left: 5px solid #16a34a;
+}
+
+/* ==============================
+   Form
+============================== */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+  background: #fdfdfd;
+}
+
+input:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 4px rgba(14,165,233,0.4);
+  outline: none;
+}
+
+/* ==============================
+   Buttons
+============================== */
+.btn-group, .action-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: transform 0.15s ease, background 0.25s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* New modern button colors */
+.btn-blue  { background: #2563eb; color: white; }
+.btn-blue:hover  { background: #1d4ed8; }
+
+.btn-green { background: #16a34a; color: white; }
+.btn-green:hover { background: #15803d; }
+
+.btn-gray  { background: #6b7280; color: white; }
+.btn-gray:hover  { background: #4b5563; }
+
+.btn-red   { background: #dc2626; color: white; }
+.btn-red:hover   { background: #b91c1c; }
+
+
+/* ==============================
+   Table
+============================== */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #dee2e6;
+  text-align: left;
+}
+
+th {
+  background: #2b7a0b; /* football green */
+  color: white;
+  font-weight: 600;
+}
+
+tr:nth-child(even) td {
+  background: #f8f9fa;
+}
+
+/* ==============================
+   Messages / Notifications
+============================== */
+.message-banner {
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 28px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  z-index: 1000;
+  animation: fadeInDown 0.4s ease;
+}
+
+.message-banner.success { background: #22c55e; }
+.message-banner.error   { background: #ef4444; }
+
+/* ==============================
+   Animations
+============================== */
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px) translateX(-50%); }
+  to   { opacity: 1; transform: translateY(0) translateX(-50%); }
+}
