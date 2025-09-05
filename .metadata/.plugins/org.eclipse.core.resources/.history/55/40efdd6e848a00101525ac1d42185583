@@ -64,7 +64,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>springbootfplayerapi</finalName>
+		<finalName>springbootstudentapi</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
