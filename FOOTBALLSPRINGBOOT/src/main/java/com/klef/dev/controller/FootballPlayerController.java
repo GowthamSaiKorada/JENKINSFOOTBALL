@@ -10,7 +10,7 @@ import com.klef.dev.entity.FootballPlayer;
 import com.klef.dev.service.FootballPlayerService;
 
 @RestController
-@RequestMapping("/fplayerapi/")
+@RequestMapping("/fplayerapi")
 @CrossOrigin(origins = "*")
 public class FootballPlayerController {
 
