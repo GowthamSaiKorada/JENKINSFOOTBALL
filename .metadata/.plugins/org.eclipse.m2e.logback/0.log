@@ -53,3 +53,27 @@
 2025-09-05 22:49:46,642 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-09-05 22:49:46,760 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-09-05 22:49:46,766 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\src\test\resources
+2025-09-05 23:46:17,646 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:FOOTBALLSPRINGBOOT:0.0.1-SNAPSHOT @ C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\pom.xml.
+2025-09-05 23:46:23,772 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:23,777 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:23,789 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\src\test\resources
+2025-09-05 23:46:23,791 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FOOTBALLSPRINGBOOT
+2025-09-05 23:46:23,792 [Worker-20: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FOOTBALLSPRINGBOOT
+2025-09-05 23:46:27,610 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:FOOTBALLSPRINGBOOT:0.0.1-SNAPSHOT @ C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\pom.xml.
+2025-09-05 23:46:28,105 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:28,109 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:28,115 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\src\test\resources
+2025-09-05 23:46:28,116 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FOOTBALLSPRINGBOOT
+2025-09-05 23:46:28,117 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FOOTBALLSPRINGBOOT
+2025-09-05 23:46:30,911 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:FOOTBALLSPRINGBOOT:0.0.1-SNAPSHOT @ C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\pom.xml.
+2025-09-05 23:46:32,246 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:32,248 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:32,254 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\src\test\resources
+2025-09-05 23:46:32,254 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FOOTBALLSPRINGBOOT
+2025-09-05 23:46:32,254 [Worker-25: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FOOTBALLSPRINGBOOT
+2025-09-05 23:46:34,935 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef.dev:FOOTBALLSPRINGBOOT:0.0.1-SNAPSHOT @ C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\pom.xml.
+2025-09-05 23:46:36,249 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:36,250 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-05 23:46:36,255 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JENKINS PRACTICE\FOOTBALLSPRINGBOOT\src\test\resources
+2025-09-05 23:46:36,256 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of FOOTBALLSPRINGBOOT
+2025-09-05 23:46:36,256 [Worker-26: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for FOOTBALLSPRINGBOOT
