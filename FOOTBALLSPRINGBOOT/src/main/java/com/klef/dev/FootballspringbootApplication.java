@@ -6,16 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class FootballspringbootApplication extends SpringBootServletInitializer
-{
+public class FootballSpringBootApplication extends SpringBootServletInitializer {
+
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        // This tells external Tomcat what the primary Spring Boot source is
-        return application.sources(FootballspringbootApplication.class);
+        return application.sources(FootballSpringBootApplication.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(FootballspringbootApplication.class, args);
-        System.out.println("Football Player Spring Boot Project is Running ...");
+        SpringApplication.run(FootballSpringBootApplication.class, args);
     }
 }
