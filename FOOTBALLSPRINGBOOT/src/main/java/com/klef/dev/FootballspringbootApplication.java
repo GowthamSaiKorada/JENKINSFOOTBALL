@@ -6,14 +6,14 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class FootballSpringBootApplication extends SpringBootServletInitializer {
+public class FootballspringbootApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(FootballSpringBootApplication.class);
+        return application.sources(FootballspringbootApplication.class);
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(FootballSpringBootApplication.class, args);
+        SpringApplication.run(FootballspringbootApplication.class, args);
     }
 }
